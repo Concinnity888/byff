@@ -1,0 +1,49 @@
+html,
+.page {
+    margin: 0;
+
+    font-family: 'Montserrat Alternates', sans-serif;
+
+    background-color: #ffffff;
+    color: #263D45;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+
+    white-space: nowrap;
+
+    border: 0;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+main {
+    display: block;
+    width: 100%;
+    height: 3000px;
+
+    background-color: lightcyan;
+}
