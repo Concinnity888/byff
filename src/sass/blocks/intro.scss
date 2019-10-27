@@ -1,3 +1,68 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh - 110px);
+    margin-bottom: 40px;
+    padding: 0 30px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.intro__boxes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 25px;
+}
+
+.intro__box {
+    display: block;
+    width: calc(50% - 7.5px);
+    height: calc(50% - 7.5px);
+
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    &--blue {
+        margin-right: 7.5px;
+        margin-bottom: 7.5px;
+
+        background-color: #A7D1E0;
+        background-image: url('/img/word-baby-bg.png');
+        background-position: right 15px bottom -5px;
+    }
+
+    &--lavender {
+        margin-left: 7.5px;
+        margin-bottom: 7.5px;
+
+        background-color: #C4ACD0;
+        background-image: url('/img/word-yoga-bg.png');
+        background-position: left 15px bottom -5px;
+    }
+
+    &--green {
+        margin-right: 7.5px;
+        margin-top: 7.5px;
+
+        background-color: #CCDA8B;
+        background-image: url('/img/word-fit-bg.png');
+        background-position: right 15px top -5px;
+    }
+
+    &--apricot {
+        margin-left: 7.5px;
+        margin-top: 7.5px;
+
+        background-color: #EECBB4;
+        background-image: url('/img/word-fest-bg.png');
+        background-position: left 15px top -5px;
+    }
+}
+
 .intro__text {
     margin: 0;
     padding: 0;
@@ -5,8 +70,8 @@
     font-family: inherit;
     font-style: normal;
     font-weight: normal;
-    font-size: 36px;
-    line-height: 44px;
+    font-size: 30px;
+    line-height: 36px;
     text-align: center;
 
     color: inherit;

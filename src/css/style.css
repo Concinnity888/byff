@@ -41,26 +41,26 @@ img {
 
 main {
   display: block;
-  width: 100%;
-  height: 3000px;
-  background-color: lightcyan; }
+  width: 100%; }
 
 .header {
   z-index: 2;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: rgba(255, 255, 255, 0.5); }
-
-.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  padding: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.75); }
 
 .header__logo {
   display: block;
@@ -144,13 +144,73 @@ main {
   .btn:active {
     color: #ffffff; }
 
+.intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: calc(100vh - 110px);
+  margin-bottom: 40px;
+  padding: 0 30px;
+  padding-bottom: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.intro__boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 25px; }
+
+.intro__box {
+  display: block;
+  width: calc(50% - 7.5px);
+  height: calc(50% - 7.5px);
+  background-repeat: no-repeat;
+  background-size: contain; }
+  .intro__box--blue {
+    margin-right: 7.5px;
+    margin-bottom: 7.5px;
+    background-color: #A7D1E0;
+    background-image: url("/img/word-baby-bg.png");
+    background-position: right 15px bottom -5px; }
+  .intro__box--lavender {
+    margin-left: 7.5px;
+    margin-bottom: 7.5px;
+    background-color: #C4ACD0;
+    background-image: url("/img/word-yoga-bg.png");
+    background-position: left 15px bottom -5px; }
+  .intro__box--green {
+    margin-right: 7.5px;
+    margin-top: 7.5px;
+    background-color: #CCDA8B;
+    background-image: url("/img/word-fit-bg.png");
+    background-position: right 15px top -5px; }
+  .intro__box--apricot {
+    margin-left: 7.5px;
+    margin-top: 7.5px;
+    background-color: #EECBB4;
+    background-image: url("/img/word-fest-bg.png");
+    background-position: left 15px top -5px; }
+
 .intro__text {
   margin: 0;
   padding: 0;
   font-family: inherit;
   font-style: normal;
   font-weight: normal;
-  font-size: 36px;
-  line-height: 44px;
+  font-size: 30px;
+  line-height: 36px;
   text-align: center;
   color: inherit; }
