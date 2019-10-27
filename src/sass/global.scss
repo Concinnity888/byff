@@ -44,3 +44,21 @@ main {
     display: block;
     width: 100%;
 }
+
+.bg-blue {
+    min-height: 164px;
+
+    background-image: url('/img/wave.png'), linear-gradient(to bottom, #ffffff 164px, #DFFAF3 164px);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top center, top center;
+    background-size: 100% 164px, auto;
+}
+
+.bg-white {
+    min-height: 164px;
+
+    background-image: url('/img/wave-white.png'), linear-gradient(to bottom, #DFFAF3 164px, #ffffff 164px);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top center, top center;
+    background-size: 100% 164px, auto;
+}
