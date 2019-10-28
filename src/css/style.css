@@ -210,7 +210,7 @@ main {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
-  margin-bottom: 40px;
+  margin-bottom: 32px;
   padding: 0 15px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
@@ -270,6 +270,7 @@ main {
 @media (min-width: 1139px) {
   .intro {
     height: calc(100vh - 110px);
+    margin-bottom: 40px;
     padding: 0 30px;
     padding-bottom: 10px; }
   .intro__boxes {
@@ -313,12 +314,18 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 1140px;
-  margin: 0 auto;
-  margin-bottom: 80px; }
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin-bottom: 80px;
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 .features__wrap {
   display: -webkit-box;
@@ -327,7 +334,10 @@ main {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column; }
+          flex-direction: column;
+  margin-bottom: 33px; }
+  .features__wrap:nth-last-of-type(1) {
+    margin-bottom: 0; }
 
 .features__title {
   margin: 0;
@@ -335,8 +345,8 @@ main {
   font-family: inherit;
   font-style: normal;
   font-weight: bold;
-  font-size: 96px;
-  line-height: 96px;
+  font-size: 72px;
+  line-height: 80px;
   text-align: center;
   color: #C2D665; }
 
@@ -351,6 +361,24 @@ main {
   text-align: center;
   text-transform: uppercase;
   color: #C2D665; }
+
+@media (min-width: 1139px) {
+  .features {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 80px; }
+  .features__wrap {
+    margin-bottom: 0; }
+  .features__title {
+    font-size: 96px;
+    line-height: 96px; } }
 
 .members {
   width: 100%;

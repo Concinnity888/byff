@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 32px;
     padding: 0 15px;
     box-sizing: border-box;
 }
@@ -75,6 +75,7 @@
 @media  (min-width: 1139px) {
     .intro {
         height: calc(100vh - 110px);
+        margin-bottom: 40px;
         padding: 0 30px;
         padding-bottom: 10px;
     }
