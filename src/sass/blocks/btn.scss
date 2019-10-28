@@ -1,12 +1,10 @@
 .btn {
-    position: relative;
-
     display: inline-block;
     height: 50px;
 
     font-family: inherit;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 18px;
     line-height: 50px;
     text-align: center;
@@ -17,43 +15,69 @@
     color: #ffffff;
     border-radius: 100px;
 
-    overflow: hidden;
-
-    & span {
-        position: relative;
-        z-index: 20;
-    }
-
     &--phone {
-        width: 200px;
+        display: none;
     }
 
-    &:after {
-        content: '';
+    &--small {
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+        box-sizing: border-box;
 
-        position: absolute;
+        font-size: 0;
 
-        top: -50px;
-        left: -75px;
-
-        width: 50px;
-        height: 155px;
-
-        opacity: .2;
-        background-color: #ffffff;
-
-        transform: rotate(35deg);
-        transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+        border: none;
     }
+}
 
-    &:hover {
-        &:after {
-            left: 120%;
-            transition: all 1000ms cubic-bezier(0.19, 1, 0.22, 1);
+
+@media  (min-width: 1139px) {
+    .btn {
+        position: relative;
+
+        font-weight: bold;
+
+        overflow: hidden;
+
+        & span {
+            position: relative;
+            z-index: 20;
         }
-    }
 
-    &:active {
-        color: #ffffff;
+        &--phone {
+            display: inline-block;
+
+            width: 200px;
+        }
+
+        &:after {
+            content: '';
+
+            position: absolute;
+
+            top: -50px;
+            left: -75px;
+
+            width: 50px;
+            height: 155px;
+
+            opacity: .2;
+            background-color: #ffffff;
+
+            transform: rotate(35deg);
+            transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+        }
+
+        &:hover {
+            &:after {
+                left: 120%;
+                transition: all 1000ms cubic-bezier(0.19, 1, 0.22, 1);
+            }
+        }
+
+        &:active {
+            color: #ffffff;
+        }
     }
 }
