@@ -7,69 +7,120 @@
     <title>Беби Йога Фит Фест</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="page">
+<body class="page" id="top">
     <header class="header sticky">
-        <div class="container header__container">
-            <a class="header__logo" href="">
-                <img src="img/logo.png" alt="Беби Йога Фит Фест">
-            </a>
+        <button class="header__btn-open btn btn--small" type="button">Открыть меню</button>
 
-            <nav class="header__nav nav">
-                <ul>
-                    <li>
-                        <a class="nav__item" href="#program">Программа</a>
-                    </li>
-                    <li>
-                        <a class="nav__item" href="#members">Участники</a>
-                    </li>
-                    <li>
-                        <a class="nav__item" href="">Купить билет</a>
-                    </li>
-                    <li>
-                        <a class="nav__item" href="">Скачать положение</a>
-                    </li>
-                    <li>
-                        <a class="nav__item" href="#contacts">Контакты</a>
-                    </li>
-                </ul>
-            </nav>
+        <a class="header__logo" href="">
+            <img src="img/logo.png" alt="Беби Йога Фит Фест">
+        </a>
 
-            <a class="header__btn btn btn--phone" href="tel:+"><span>8 900 000 00 00</span></a>
-        </div>
+        <nav class="header__nav nav">
+            <ul>
+                <li>
+                    <a class="nav__item" href="#program">Программа</a>
+                </li>
+                <li>
+                    <a class="nav__item" href="#members">Участники</a>
+                </li>
+                <li>
+                    <a class="nav__item" href="">Купить билет</a>
+                </li>
+                <li>
+                    <a class="nav__item" href="">Скачать положение</a>
+                </li>
+                <li>
+                    <a class="nav__item" href="#contacts">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+
+        <a class="header__btn btn btn--phone" href="tel:+"><span>8 900 000 00 00</span></a>
     </header>
 
     <main class="content">
         <section class="intro">
             <h1 class="visually-hidden">Беби Йога Фит Фест</h1>
 
+            <div class="intro__boxes">
+                <div class="intro__box intro__box--blue"></div>
+                <div class="intro__box intro__box--lavender"></div>
+                <div class="intro__box intro__box--green"></div>
+                <div class="intro__box intro__box--apricot"></div>
+            </div>
+
             <p class="intro__text">1 - 2 февраля 2019 года<br> в Перми</p>
         </section>
 
         <dl class="features">
-            <dt class="features__title">2</dt>
-            <dd class="features__desc">дня</dd>
+            <div class="features__wrap">
+                <dt class="features__title">2</dt>
+                <dd class="features__desc">дня</dd>
+            </div>
 
-            <dt class="features__title">10</dt>
-            <dd class="features__desc">семинаров</dd>
+            <div class="features__wrap">
+                <dt class="features__title">10</dt>
+                <dd class="features__desc">семинаров</dd>
+            </div>
 
-            <dt class="features__title">30</dt>
-            <dd class="features__desc">спикеров</dd>
+            <div class="features__wrap">
+                <dt class="features__title">30</dt>
+                <dd class="features__desc">спикеров</dd>
+            </div>
 
-            <dt class="features__title">100+</dt>
-            <dd class="features__desc">участников</dd>
+            <div class="features__wrap">
+                <dt class="features__title">100+</dt>
+                <dd class="features__desc">участников</dd>
+            </div>
         </dl>
 
-        <section class="members" id="members"></section>
+        <section class="members bg-blue" id="members">
+            <h2 class="members__title">Участники</h2>
 
-        <section class="program" id="program"></section>
+            <div class="members__container">
+                <p class="members__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices tellus eget libero quisque dictum sit elit</p>
+            </div>
+        </section>
 
-        <section class="gallery"></section>
+        <section class="program bg-white" id="program">
+            <h2 class="program__title">Программа</h2>
 
-        <section class="contacts" id="contacts"></section>
+            <div class="program__container">
+                <p class="program__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices tellus eget libero quisque dictum sit elit</p>
+            </div>
+        </section>
+
+        <section class="gallery bg-blue">
+            <h2 class="gallery__title">Фотогалерея</h2>
+
+            <p class="gallery__text">Фото с фестиваля<br> 8 сентября 2019 года</p>
+        </section>
+
+        <section class="contacts" id="contacts">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A36433a39011c5ffc7252e47cd9c589b47ae16db9c35961f7b9b39eda771e3949&amp;source=constructor" width="100%" height="500" frameborder="0"></iframe>
+
+            <div class="contacts__wrap">
+                <p class="contacts__caption">Фестиваль будет проходить по адресу:</p>
+                <address class="contacts__text">г. Пермь,<br> ул. Чернышевского, 28,<br> 5 этаж</address>
+
+                <p class="contacts__text">Контактный номер телефона:</p>
+                <a class="contacts__text" href="tel:+">8 922 222 22 22</a>
+
+                <a class="contacts__btn btn" href=""><span>Купить билет</span></a>
+            </div>
+        </section>
     </main>
 
-    <footer>
+    <footer class="footer">
+        <div class="footer__social social">
+            <a class="social__link social__link--fb" href="">Мы в Фейсбуке</a>
+            <a class="social__link social__link--vk" href="">Мы в Вконтакте</a>
+            <a class="social__link social__link--insta" href="">Мы в Инстаграме</a>
+        </div>
 
+        <a class="footer__btn btn btn--up" href="#top">Наверх</a>
+
+        <a class="footer__link" href="">Политика конфиденциальности</a>
     </footer>
 </body>
 </html>
