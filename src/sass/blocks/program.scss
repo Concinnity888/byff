@@ -1,6 +1,6 @@
 .program {
     width: 100%;
-    padding-top: 150px;
+    padding-top: 87px;
     padding-bottom: 115px;
 }
 
@@ -12,8 +12,8 @@
     font-family: inherit;
     font-style: normal;
     font-weight: 500;
-    font-size: 48px;
-    line-height: 60px;
+    font-size: 30px;
+    line-height: 36px;
     text-align: center;
     text-transform: uppercase;
 
@@ -23,8 +23,9 @@
 .program__container {
     display: flex;
     flex-direction: column;
-    width: 1140px;
-    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
 }
 
 .program__text {
@@ -39,4 +40,25 @@
     text-align: center;
 
     color: #263D45;
+}
+
+
+@media  (min-width: 1139px) {
+    .program {
+        padding-top: 150px;
+        padding-bottom: 115px;
+    }
+
+    .program__title {
+        margin-bottom: 25px;
+
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .program__container {
+        width: 1140px;
+        margin: 0 auto;
+        padding: 0;
+    }
 }
