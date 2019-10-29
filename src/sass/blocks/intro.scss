@@ -26,7 +26,7 @@
         margin-bottom: 10px;
 
         background-color: #A7D1E0;
-        background-image: url('/img/word-baby.png');
+        background-image: url('../img/word-baby.png');
         background-size: auto 100px;
         background-position: center top 19px;
     }
@@ -35,7 +35,7 @@
         margin-bottom: 10px;
 
         background-color: #C4ACD0;
-        background-image: url('/img/word-yoga.png');
+        background-image: url('../img/word-yoga.png');
         background-size: auto 119px;
         background-position: center top 18px;
     }
@@ -44,14 +44,14 @@
         margin-bottom: 10px;
 
         background-color: #CCDA8B;
-        background-image: url('/img/word-fit.png');
+        background-image: url('../img/word-fit.png');
         background-size: auto 105px;
         background-position: center top 16px;
     }
 
     &--apricot {
         background-color: #EECBB4;
-        background-image: url('/img/word-fest.png');
+        background-image: url('../img/word-fest.png');
         background-size: auto 105px;
         background-position: center top 16px;
     }
@@ -97,7 +97,7 @@
             margin-bottom: 7.5px;
 
             background-color: #A7D1E0;
-            background-image: url('/img/word-baby-bg.png');
+            background-image: url('../img/word-baby-bg.png');
             background-position: right 15px bottom -5px;
         }
 
@@ -106,7 +106,7 @@
             margin-bottom: 7.5px;
 
             background-color: #C4ACD0;
-            background-image: url('/img/word-yoga-bg.png');
+            background-image: url('../img/word-yoga-bg.png');
             background-position: left 15px bottom -5px;
         }
 
@@ -116,7 +116,7 @@
             margin-bottom: 0;
 
             background-color: #CCDA8B;
-            background-image: url('/img/word-fit-bg.png');
+            background-image: url('../img/word-fit-bg.png');
             background-position: right 15px top -5px;
         }
 
@@ -125,7 +125,7 @@
             margin-top: 7.5px;
 
             background-color: #EECBB4;
-            background-image: url('/img/word-fest-bg.png');
+            background-image: url('../img/word-fest-bg.png');
             background-position: left 15px top -5px;
         }
     }

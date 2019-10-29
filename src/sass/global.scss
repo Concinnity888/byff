@@ -48,7 +48,7 @@ main {
 .bg-blue {
     min-height: 50px;
 
-    background-image: url('/img/wave.png'), linear-gradient(to bottom, #ffffff 50px, #DFFAF3 50px);
+    background-image: url('../img/wave.png'), linear-gradient(to bottom, #ffffff 50px, #DFFAF3 50px);
     background-repeat: no-repeat, no-repeat;
     background-position: top center, top center;
     background-size: 100% 50px, auto;
@@ -57,7 +57,7 @@ main {
 .bg-white {
     min-height: 50px;
 
-    background-image: url('/img/wave-white.png'), linear-gradient(to bottom, #DFFAF3 50px, #ffffff 50px);
+    background-image: url('../img/wave-white.png'), linear-gradient(to bottom, #DFFAF3 50px, #ffffff 50px);
     background-repeat: no-repeat, no-repeat;
     background-position: top center, top center;
     background-size: 100% 50px, auto;
@@ -68,14 +68,14 @@ main {
     .bg-blue {
         min-height: 164px;
 
-        background-image: url('/img/wave.png'), linear-gradient(to bottom, #ffffff 164px, #DFFAF3 164px);
+        background-image: url('../img/wave.png'), linear-gradient(to bottom, #ffffff 164px, #DFFAF3 164px);
         background-size: 100% 164px, auto;
     }
 
     .bg-white {
         min-height: 164px;
 
-        background-image: url('/img/wave-white.png'), linear-gradient(to bottom, #DFFAF3 164px, #ffffff 164px);
+        background-image: url('../img/wave-white.png'), linear-gradient(to bottom, #DFFAF3 164px, #ffffff 164px);
         background-size: 100% 164px, auto;
     }
 }

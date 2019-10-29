@@ -45,14 +45,14 @@ main {
 
 .bg-blue {
   min-height: 50px;
-  background-image: url("/img/wave.png"), linear-gradient(to bottom, #ffffff 50px, #DFFAF3 50px);
+  background-image: url("../img/wave.png"), linear-gradient(to bottom, #ffffff 50px, #DFFAF3 50px);
   background-repeat: no-repeat, no-repeat;
   background-position: top center, top center;
   background-size: 100% 50px, auto; }
 
 .bg-white {
   min-height: 50px;
-  background-image: url("/img/wave-white.png"), linear-gradient(to bottom, #DFFAF3 50px, #ffffff 50px);
+  background-image: url("../img/wave-white.png"), linear-gradient(to bottom, #DFFAF3 50px, #ffffff 50px);
   background-repeat: no-repeat, no-repeat;
   background-position: top center, top center;
   background-size: 100% 50px, auto; }
@@ -60,11 +60,11 @@ main {
 @media (min-width: 1139px) {
   .bg-blue {
     min-height: 164px;
-    background-image: url("/img/wave.png"), linear-gradient(to bottom, #ffffff 164px, #DFFAF3 164px);
+    background-image: url("../img/wave.png"), linear-gradient(to bottom, #ffffff 164px, #DFFAF3 164px);
     background-size: 100% 164px, auto; }
   .bg-white {
     min-height: 164px;
-    background-image: url("/img/wave-white.png"), linear-gradient(to bottom, #DFFAF3 164px, #ffffff 164px);
+    background-image: url("../img/wave-white.png"), linear-gradient(to bottom, #DFFAF3 164px, #ffffff 164px);
     background-size: 100% 164px, auto; } }
 
 .btn {
@@ -104,7 +104,7 @@ main {
     background-repeat: no-repeat;
     background-position: center top 8px;
     background-size: 22px auto;
-    background-image: url("/img/arrow-up.png"); }
+    background-image: url("../img/arrow-up.png"); }
 
 @media (min-width: 1139px) {
   .btn {
@@ -267,24 +267,24 @@ main {
   .intro__box--blue {
     margin-bottom: 10px;
     background-color: #A7D1E0;
-    background-image: url("/img/word-baby.png");
+    background-image: url("../img/word-baby.png");
     background-size: auto 100px;
     background-position: center top 19px; }
   .intro__box--lavender {
     margin-bottom: 10px;
     background-color: #C4ACD0;
-    background-image: url("/img/word-yoga.png");
+    background-image: url("../img/word-yoga.png");
     background-size: auto 119px;
     background-position: center top 18px; }
   .intro__box--green {
     margin-bottom: 10px;
     background-color: #CCDA8B;
-    background-image: url("/img/word-fit.png");
+    background-image: url("../img/word-fit.png");
     background-size: auto 105px;
     background-position: center top 16px; }
   .intro__box--apricot {
     background-color: #EECBB4;
-    background-image: url("/img/word-fest.png");
+    background-image: url("../img/word-fest.png");
     background-size: auto 105px;
     background-position: center top 16px; }
 
@@ -317,26 +317,26 @@ main {
       margin-right: 7.5px;
       margin-bottom: 7.5px;
       background-color: #A7D1E0;
-      background-image: url("/img/word-baby-bg.png");
+      background-image: url("../img/word-baby-bg.png");
       background-position: right 15px bottom -5px; }
     .intro__box--lavender {
       margin-left: 7.5px;
       margin-bottom: 7.5px;
       background-color: #C4ACD0;
-      background-image: url("/img/word-yoga-bg.png");
+      background-image: url("../img/word-yoga-bg.png");
       background-position: left 15px bottom -5px; }
     .intro__box--green {
       margin-right: 7.5px;
       margin-top: 7.5px;
       margin-bottom: 0;
       background-color: #CCDA8B;
-      background-image: url("/img/word-fit-bg.png");
+      background-image: url("../img/word-fit-bg.png");
       background-position: right 15px top -5px; }
     .intro__box--apricot {
       margin-left: 7.5px;
       margin-top: 7.5px;
       background-color: #EECBB4;
-      background-image: url("/img/word-fest-bg.png");
+      background-image: url("../img/word-fest-bg.png");
       background-position: left 15px top -5px; }
   .intro__text {
     font-size: 30px;
@@ -717,11 +717,11 @@ main {
   background-position: center;
   background-size: auto; }
   .social__link--fb {
-    background-image: url("/img/fb.png"); }
+    background-image: url("../img/fb.png"); }
   .social__link--vk {
-    background-image: url("/img/vk.png"); }
+    background-image: url("../img/vk.png"); }
   .social__link--insta {
-    background-image: url("/img/insta.png"); }
+    background-image: url("../img/insta.png"); }
   .social__link:hover {
     opacity: 0.7; }
 
