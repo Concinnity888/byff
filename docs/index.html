@@ -7,7 +7,7 @@
     <title>Беби Йога Фит Фест</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="page">
+<body class="page" id="top">
     <header class="header sticky">
         <button class="header__btn-open btn btn--small" type="button">Открыть меню</button>
 
@@ -97,12 +97,30 @@
         </section>
 
         <section class="contacts" id="contacts">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A36433a39011c5ffc7252e47cd9c589b47ae16db9c35961f7b9b39eda771e3949&amp;source=constructor" width="100%" height="500" frameborder="0"></iframe>
 
+            <div class="contacts__wrap">
+                <p class="contacts__caption">Фестиваль будет проходить по адресу:</p>
+                <address class="contacts__text">г. Пермь,<br> ул. Чернышевского, 28,<br> 5 этаж</address>
+
+                <p class="contacts__text">Контактный номер телефона:</p>
+                <a class="contacts__text" href="tel:+">8 922 222 22 22</a>
+
+                <a class="contacts__btn btn" href=""><span>Купить билет</span></a>
+            </div>
         </section>
     </main>
 
-    <footer>
+    <footer class="footer">
+        <div class="footer__social social">
+            <a class="social__link social__link--fb" href="">Мы в Фейсбуке</a>
+            <a class="social__link social__link--vk" href="">Мы в Вконтакте</a>
+            <a class="social__link social__link--insta" href="">Мы в Инстаграме</a>
+        </div>
 
+        <a class="footer__btn btn btn--up" href="#top">Наверх</a>
+
+        <a class="footer__link" href="">Политика конфиденциальности</a>
     </footer>
 </body>
 </html>

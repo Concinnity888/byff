@@ -1,0 +1,41 @@
+.social {
+    margin-bottom: 25px;
+
+    font-size: 0;
+}
+
+.social__link {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+
+    vertical-align: middle;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+
+    &--fb {
+        background-image: url('/img/fb.png');
+    }
+
+    &--vk {
+        background-image: url('/img/vk.png');
+    }
+
+    &--insta {
+        background-image: url('/img/insta.png');
+    }
+
+    &:hover {
+        opacity: 0.7;
+    }
+}
+
+
+@media  (min-width: 1139px) {
+    .social {
+        order: 2;
+    }
+}
